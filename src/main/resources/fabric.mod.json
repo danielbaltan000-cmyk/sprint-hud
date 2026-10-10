@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "sprinthud",
+  "version": "${version}",
+  "name": "Sprint HUD",
+  "description": "Shows a 'sprinting toggled' label in the top left while you walk.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.sprinthud.SprintHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
